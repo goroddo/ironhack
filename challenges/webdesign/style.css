@@ -1,0 +1,105 @@
+.page {
+    overflow: hidden;
+    background-color: #DFDFDF;
+}
+
+.item0 {
+    height: 300px;
+    margin: 0.5%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-image: url("https://thumbs.dreamstime.com/z/pink-garden-blooming-magnolia-trees-beautiful-brick-walkway-park-bench-leads-spring-washington-dc-39566797.jpg");
+    box-shadow: 5px 5px 5px grey
+}
+
+.container1 {
+    float: left;
+    width: 25%
+}
+
+.container2 {
+    float: right;
+    width: 75%
+}
+
+.item1 {
+    margin: 1.5%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey
+}
+
+.section-title {
+    font-family: sans-serif;
+    padding-top: 1%;
+    font-size: 150%;
+    margin: 0.2%;
+}
+
+.background {
+    height: 25px;
+    padding-left: 1%;
+    background-image: url("https://previews.123rf.com/images/strawberryblossom/strawberryblossom1704/strawberryblossom170400049/76783744-patr%C3%B3n-de-rayas-gris-y-blanco-sin-problemas-vector-de-fondo-abstracto-diagonal-raya-del-patr%C3%B3n-.jpg");
+    background-size: 40%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    opacity: 60%;
+}
+
+.b2 {
+    background-size: 110%;
+}
+
+.remove-left-radius {
+    border-top-left-radius: 0px;
+}
+
+.remove-right-radius {
+    border-top-right-radius: 0px;
+}
+
+.right {
+    margin-left: 14.5%;
+    width: 85%;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+}
+
+.left {
+    width: 85%;
+    margin-left: 1%;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+}
+
+.center {
+    margin: 1%;
+    padding-bottom: 0.5%;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+ul {
+    margin-right: 6%;
+    margin-left: -6%;
+    color: #3A3A3A;
+    font-family: sans-serif;
+}
+
+a {
+    color: #FF00FF;
+}
+
+.separation {
+    height: 5px;
+}
+
+hr.dotted {
+    border-top: 2px dotted #bbb;
+}
+
+span.dotted {
+    border-bottom: 1px dotted;
+}
