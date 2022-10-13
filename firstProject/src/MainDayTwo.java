@@ -1,4 +1,3 @@
-import com.oracle.xmlns.internal.webservices.jaxws_databinding.SoapBindingUse;
 
 public class MainDayTwo {
     public static void main(String[] args) {
@@ -12,10 +11,19 @@ public class MainDayTwo {
             System.out.println("Poh no");
         }
 
+        switch (statusCode) {
+            case 1 -> System.out.println("Only 1?");
+            case 2 -> System.out.println("So greedy");
+            default -> System.out.println("nothing");
+        };
+
         // Iterate
+
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Hello " + i);
+        }
         // Methods
         // Git
-
 
     }
 }
